@@ -92,8 +92,20 @@ nav h4{
 .destination-images{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 60px;
 }
-.mirror-text{
+.lake{
+    width: Fixed (370.67px)px;
+height: Fixed (404px)px;
+padding: 16px 16px 36px 16px;
+gap: 28px;
+border: 1px 0px 0px 0px white; 
+opacity: 0px;
+
+
+}
+.lake-name{
 font-family: Urbanist;
 font-size: 1.5rem;
 font-weight: 700;
@@ -103,7 +115,7 @@ margin-top: 0;
 margin-bottom: 0;
 
 }
-.mirror-location{
+.lake-location{
     display: flex;
     align-items: center;
     margin-top: 0;
@@ -112,32 +124,8 @@ margin-bottom: 0;
 .location-logo{
     margin-right: 10px;
 }
-.jawa{
+.location{
     margin-left: 10px;
-font-family: Urbanist;
-font-size: 1.125rem;
-font-weight: 600;
-line-height: 32px;
-text-align: left;
-}
-.hotair-text{
-    
-font-family: Urbanist;
-font-size: 1.5rem;
-font-weight: 700;
-line-height: 36px;
-text-align: left;
-margin-top:0;
-margin-bottom: 0;
-}
-.turkey{
-    display: flex;
-    align-items: center;
-    margin-top:0;
-    margin-bottom: 0;
-}
-.cappadocio{
-margin-left: 10px;
 font-family: Urbanist;
 font-size: 1.125rem;
 font-weight: 600;
