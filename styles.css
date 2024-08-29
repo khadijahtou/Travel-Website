@@ -1,11 +1,11 @@
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    padding: 0;
+	margin: 0;
 }
-.hero-section{
-    width: 100%;
-    height: 1070px;
-}
+
 nav{
     margin: 44px 120px 0px 120px;
     display: flex;
@@ -14,39 +14,43 @@ nav{
 }
 nav h4{
     font-family: Gilda Display;
-font-size: 1.8rem;
-font-weight: 400;
-line-height: 32.96px;
-letter-spacing: 0.1em;
-text-align: left;
-color: #25A59E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 32.96px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #25A59E;
 }
-h2 {
+
+.header-text{
     font-family: Gilda Display;
     font-size: 10.625rem;
     font-weight: 400;
     line-height: 170px;
     text-align: center;
-    }
-    span{
-        color: #25A59E;
-    }
-    .selfie{
-        width: 1072px;
-height: 655px;
-top: -10482px;
-left: 3931px;
-gap: 0px;
-opacity: 0px;
-margin: 414px 169px 1px 199px;
-    }
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-travel{
+    color: #25A59E;
+}
+
+
+.hero-section{
+    width: 100%;
+    /* height: 1070px; */
+    display: flex;
+    flex-direction: column;
+}  
+
+
 .find-destination{
-    
-font-family: Gilda Display;
-font-size: 4.5rem;
-font-weight: 400;
-line-height: 84px;
-text-align: center;
+    font-family: Gilda Display;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
 }
 .destination-choice{
     font-family: Urbanist;
@@ -55,28 +59,88 @@ text-align: center;
     line-height: 24px;
     text-align: center;
     
-
 }
-
+ /* image from section one */
 .travel-selfies{
-    position: relative;
-margin-left: 199px;
-margin-right: 169px;
-width: 1072px;
-height: 655px;
-border:2px solid red
+    display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 655px;
 }
-.image-1{
-    z-index: 35;
-    position: absolute;
-}
-.imade-2{
-    z-index: 30;
-    position: absolute;
-    top: 0;
-}
-.image-3{
-    z-index: 25;
+
+.blurry{
     position: absolute;  
+    top: -20%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.ellipse{
+    z-index: 2;
+	position: absolute;
+	bottom: 0;
+	left: 44px;
+}
+.selfie{
+    z-index: 3;
+	position: absolute;
+}
+.destination-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mirror-text{
+font-family: Urbanist;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.mirror-location{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.location-logo{
+    margin-right: 10px;
+}
+.jawa{
+    margin-left: 10px;
+font-family: Urbanist;
+font-size: 1.125rem;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+}
+.hotair-text{
     
+font-family: Urbanist;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+margin-top:0;
+margin-bottom: 0;
+}
+.turkey{
+    display: flex;
+    align-items: center;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.cappadocio{
+margin-left: 10px;
+font-family: Urbanist;
+font-size: 1.125rem;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
 }
