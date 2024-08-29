@@ -155,11 +155,18 @@ margin-bottom: 0;
 }
 .choose-us-cards{
     display: grid;
-    grid-template-columns:repeat(3, minmax(0,1fr));
-
+    /* grid-template-columns:repeat(3, minmax(0,1fr)); */
+    display: flex;
+    gap: 28px;
 }
 .choose-us--card{box-shadow: 10px 26px 150px 0px #4343641A;
     border-top: 4px solid #25A59E;
+    width: Fill (381.33px)px;
+height: Hug (400px)px;
+padding: 40px 32px 48px 32px;
+gap: 80px;
+opacity: 0px;
+
     
     
 }
@@ -194,4 +201,11 @@ margin-bottom: 0;}
 }
 .card--footer img{
     margin-left: 10px;
+}
+.best-guide{
+    margin-bottom: 10px;
+}
+.special-ticket{
+   background-color:  #25A59E;
+    color: white;
 }
