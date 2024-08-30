@@ -220,7 +220,6 @@ opacity: 0px;
 margin-left: 12px ;
 align-content: center;
 bottom: 20px;
-
 }
 .trip-memory--header{
     font-family: Gilda Display;
@@ -263,4 +262,44 @@ margin-top: 20px;
 .travel-image{
     position: absolute;
     bottom: 0;
+}
+.trip-documentation-header{
+font-family: Gilda Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 84px;
+text-align: center;
+}
+.trip-documentary-video{
+    width: Hug (1,440px)px;
+height: Hug (600px)px;
+gap: 10px;
+opacity: 0px;
+}
+.best-offer-header{
+    margin-top: 48px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.best-offer-text{
+font-family: Gilda Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 84px;
+text-align: center;
+
+}
+.click{
+    font-family: Urbanist;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: center;
+background-color: #25A59E;
+width: 10%;
+color: white;
+height: 54px;
+padding: 16px, 32px, 16px, 32px;
+bottom: 30%%;
 }
