@@ -135,16 +135,17 @@ margin-bottom: 0;
 .choose-us{
     display:flex;
     flex-direction: column;
-
+    padding: 100px 120px;
 }
-.card-header-title{
+.choose-us-header h4{
     font-family: Gilda Display;
     font-size: 4.5rem;
     font-weight: 400;
     line-height: 84px;
     text-align: center;
+    margin: 0;
 }
-.card-header-body{
+.choose-us-header p{
     font-family: Urbanist;
     font-size: 1.125rem;
     font-weight: 500;
@@ -156,16 +157,17 @@ margin-bottom: 0;
 .choose-us-cards{
     /* display: grid; */
     /* grid-template-columns:repeat(3, minmax(0,1fr)); */
+    margin-top: 60px;
     display: flex;
     gap: 28px;
 }
 .choose-us--card{box-shadow: 10px 26px 150px 0px #4343641A;
     border-top: 4px solid #25A59E;
     width: Fill (381.33px)px;
-height: Hug (400px)px;
-padding: 40px 32px 48px 32px;
-gap: 80px;
-opacity: 0px;    
+    height: Hug (400px)px;
+    padding: 40px 32px 48px 32px;
+    gap: 80px;
+    opacity: 0px;    
 }
 .card--title{
     font-family: Gilda Display;
@@ -173,7 +175,8 @@ opacity: 0px;
     font-weight: 400;
     line-height: 62px;
     text-align: left;
-margin-bottom: 0;}
+    margin-bottom: 0;   
+}
     
     .card--body{
     font-family: Urbanist;
@@ -203,23 +206,24 @@ margin-bottom: 0;}
     margin-bottom: 10px;
 }
 .special-ticket{
-   background-color:  #25A59E;
+    background-color:  #25A59E;
     color: white;
 }
 .trip-memory{
     display: flex;
     gap: 26px;
-   padding:  100px, 120px, 100px, 120px;
-   align-content: center;
+    padding:  100px, 120px, 100px, 120px;
+    align-content: center;
+    background-color: red;
 }
 .trip-memory--text{
     width: Fill (534px)px;
-height: Hug (292px)px;
-gap: 48px;
-opacity: 0px;
-margin-left: 12px ;
-align-content: center;
-bottom: 20px;
+    height: Hug (292px)px;
+    gap: 48px;
+    opacity: 0px;
+    margin-left: 120px ;
+    align-content: center;
+    bottom: 20px;
 }
 .trip-memory--header{
     font-family: Gilda Display;
@@ -228,17 +232,15 @@ bottom: 20px;
     line-height: 84px;
     text-align: left;
     margin-bottom: 0;
-
-    
 }
 .trip-memory--body{
-font-family: Urbanist;
-font-size: 1,125rem;
-font-weight: 500;
-line-height: 32px;
-text-align: left;
-color: #595959;
-margin-top: 20px;
+    font-family: Urbanist;
+    font-size: 1,125rem;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #595959;
+    margin-top: 20px;
 
 }
 .trip-memory--image{
@@ -247,21 +249,32 @@ margin-top: 20px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
-	height: 685px;
-    bottom: 20px;
-    top: 60px;
+	width: 640px;
+	height: 485px;
     align-content: center;
+    margin: 100px 120px 100px; 
+    padding: 18px;
+    background-color: yellow;
 
 }
 .m-shape{
 	position: absolute;
 	bottom: 0;
-	left: 80px;
+    width: 542px;
+    height: 239px;
+    top: 246px;
+    left: 86px;
+    gap: 0px;
+
 }
 .travel-image{
     position: absolute;
     bottom: 0;
+    width: 658px;
+    height: 485px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 .trip-documentation-header{
 font-family: Gilda Display;
@@ -275,6 +288,7 @@ text-align: center;
 height: Hug (600px)px;
 gap: 10px;
 opacity: 0px;
+background-image: url(assets/destination\ video.svg);
 }
 .best-offer-header{
     margin-top: 48px;
