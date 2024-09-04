@@ -301,5 +301,37 @@ width: 10%;
 color: white;
 height: 54px;
 padding: 16px, 32px, 16px, 32px;
-bottom: 30%%;
+bottom: 30;
+}
+.footer-text img{
+    display: flex;
+    
+}
+.footer-text .travel{
+    font-family: Gilda Display;
+font-size: 28px;
+font-weight: 400;
+line-height: 32.96px;
+letter-spacing: 0.1em;
+text-align: left;
+color:#25A59E;
+}
+.footer-body{
+    
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #595959;  
+
+}
+.footer-text img{
+    display: flex;
+    justify-content:space-between ;   
+}
+.contact-us{
+    justify-content: space-between;
+    align-items: end;
+    
 }
