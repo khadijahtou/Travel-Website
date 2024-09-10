@@ -90,18 +90,20 @@ nav h4{
 	position: absolute;
 }
 .destination-images{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-left: 70px;
     margin-right: 60px;
 }
 .lake{
     width: Fixed (370.67px)px;
-height: Fixed (404px)px;
-padding: 16px 16px 36px 16px;
-gap: 28px;
-border: 1px 0px 0px 0px white; 
-opacity: 0px;
+    height: Fixed (404px)px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px white; 
+    opacity: 0px;
 
 
 }
@@ -213,13 +215,10 @@ margin-bottom: 0;
     display: flex;
     gap: 26px;
     padding: 100px 120px;
-    align-items: center;
-    background-color: blue;   
+    align-items: center;   
 }
 .trip-memory--text{
-    width: Fill (534px)px;
-    height: Hug (292px)px;
-    align-content: center;
+    width: 100%;
 }
 .trip-memory--header{
     font-family: Gilda Display;
@@ -231,13 +230,12 @@ margin-bottom: 0;
 }
 .trip-memory--body{
     font-family: Urbanist;
-    font-size: 1,125rem;
+    font-size: 1.125rem;
     font-weight: 500;
     line-height: 32px;
     text-align: left;
     color: #595959;
     margin-top: 20px;
-
 }
 .trip-memory--image{
     display: flex;
@@ -245,24 +243,26 @@ margin-bottom: 0;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 	height: 485px;
     align-content: center; 
-    background-color: yellow;
+    
 }
 .m-shape{
 	position: absolute;
 	bottom: 0;
-    width: 542px;
+    width: 90%;
     height: 239px;
     top: 246px;
     left: 86px;
     gap: 0px;
+    right: 0;
 }
 .travel-image{
+    
     position: absolute;
     bottom: 0;
-    width: 658px;
+    width: 100%;
     height: 485px;
     gap: 0px;
     opacity: 0px;
