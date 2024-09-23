@@ -374,7 +374,7 @@ button {
 	body {
 		width: 100%;
 		height: 100%;
-		overflow-x: hidden;
+		overflow: hidden;
 		padding: 0;
 		margin: 0;
 		font-family: Urbanist sans-serif;
@@ -568,13 +568,22 @@ button {
 		color: white;
 	}
 	.trip-memory {
-		/* display: ; */
+		display: flex;
+		flex-direction: column;
 		gap: 28px;
 		padding: 100px 120px;
 		align-items: center;
+		width: Fixed (335px) px;
+		height: Hug (487px) px;
+		top: 4427px;
+		left: 20px;
+		gap: 28px;
 	}
 	.trip-memory--text {
-		width: 100%;
+		/* width: 100%; */
+		width: Fill (335px) px;
+		height: Hug (212px) px;
+		gap: 12px;
 	}
 	.trip-memory--header {
 		font-family: Gilda Display;
@@ -598,16 +607,16 @@ button {
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
-		height: 485px;
+		height: 247px;
 		align-content: center;
 	}
 	.m-shape {
 		position: absolute;
 		bottom: 0;
 		width: 90%;
-		height: 239px;
-		top: 246px;
-		left: 86px;
+		height: 121.75px;
+		top: 125.28px;
+		left: 29px;
 		gap: 0px;
 		right: 0;
 	}
@@ -615,9 +624,7 @@ button {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 485px;
-		gap: 0px;
-		opacity: 0px;
+		height: 287px;
 	}
 	.trip-documentation {
 		display: flex;
@@ -628,16 +635,16 @@ button {
 
 	.trip-documentation-header {
 		font-family: Gilda Display;
-		font-size: 4.5rem;
+		font-size: 2.5rem;
 		font-weight: 400;
-		line-height: 84px;
+		line-height: 52px;
 		text-align: center;
 		width: 60%;
 		margin: 0 auto;
 	}
 	.trip-documentary-video {
-		width: 100px;
-		height: 600px;
+		width: 100%;
+		height: 225px;
 	}
 	footer {
 		display: flex;
@@ -654,22 +661,22 @@ button {
 
 	.best-offer-text {
 		font-family: Gilda Display;
-		font-size: 72px;
+		font-size: 2.5rem;
 		font-weight: 400;
-		line-height: 84px;
+		line-height: 52px;
 		text-align: center;
 		margin: 0;
 	}
 	button {
 		font-family: Urbanist;
-		font-size: 18px;
+		font-size: 1.125rem;
 		font-weight: 600;
 		line-height: 21.6px;
 		text-align: center;
 		background-color: #25a59e;
 		width: 10%;
 		color: white;
-		height: 54px;
+		height: 21.6px;
 		padding: 16px, 32px, 16px, 32px;
 		border: 0;
 	}
@@ -692,19 +699,17 @@ button {
 	}
 	.footer-text h4 {
 		font-family: Gilda Display sans-serif;
-		font-size: 28px;
 		font-weight: 400;
-		line-height: 32.96px;
+		line-height: 18.83px;
 		letter-spacing: 0.1em;
 		text-align: left;
 		color: #25a59e;
 		margin: 0;
 	}
 	.footer-text p {
-		font-family: Urbanist sans-serif;
-		font-size: 18px;
+		font-size: 1.125px;
 		font-weight: 500;
-		line-height: 32px;
+		line-height: 24px;
 		text-align: left;
 		color: #595959;
 	}
