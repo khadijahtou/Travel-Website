@@ -151,10 +151,9 @@ nav h4 {
 	margin-top: 24px;
 }
 .choose-us-cards {
-	/* display: grid; */
-	/* grid-template-columns:repeat(3, minmax(0,1fr)); */
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
 	margin-top: 60px;
-	display: flex;
 	gap: 28px;
 }
 .choose-us--card {
@@ -515,19 +514,18 @@ button {
 		margin-top: 24px;
 	}
 	.choose-us-cards {
-		/* display: grid; */
-		/* grid-template-columns:repeat(3, minmax(0,1fr)); */
+		display: grid;
+		grid-template-columns: repeat(1, minmax(0, 1fr));
 		margin-top: 60px;
-		display: flex;
 		gap: 28px;
 	}
 	.choose-us--card {
 		box-shadow: 10px 26px 150px 0px #4343641a;
 		border-top: 4px solid #25a59e;
-		width: Fill (381.33px) px;
-		height: Hug (400px) px;
+		width: Fill (295px) px;
+		height: Hug (136px) px;
 		padding: 28px, 20px, 32px, 20px;
-		gap: 80px;
+		gap: 8px;
 		opacity: 0px;
 	}
 	.card--title {
@@ -540,12 +538,11 @@ button {
 	}
 
 	.card--body {
-		font-family: Urbanist;
-		font-size: 1.125rem;
+		font-size: 0.938rem;
 		font-weight: 400;
-		line-height: 32px;
+		line-height: 23px;
 		text-align: left;
-		margin-top: 5px;
+		margin-top: 8px;
 	}
 	.card--footer {
 		color: #25a59e;
@@ -554,9 +551,9 @@ button {
 	}
 	.card--footer p {
 		font-family: Gilda Display;
-		font-size: 20px;
+		font-size: 0.938rem;
 		font-weight: 400;
-		line-height: 23.54px;
+		line-height: 23px;
 		text-align: left;
 		margin-left: 10px;
 	}
@@ -571,8 +568,8 @@ button {
 		color: white;
 	}
 	.trip-memory {
-		display: flex;
-		gap: 26px;
+		/* display: ; */
+		gap: 28px;
 		padding: 100px 120px;
 		align-items: center;
 	}
@@ -581,17 +578,15 @@ button {
 	}
 	.trip-memory--header {
 		font-family: Gilda Display;
-		font-size: 4.5rem;
+		font-size: 2.5rem;
 		font-weight: 400;
-		line-height: 84px;
+		line-height: 52px;
 		text-align: left;
 		margin-bottom: 0;
 	}
 	.trip-memory--body {
-		font-family: Urbanist;
-		font-size: 1.125rem;
 		font-weight: 500;
-		line-height: 32px;
+		line-height: 24px;
 		text-align: left;
 		color: #595959;
 		margin-top: 20px;
