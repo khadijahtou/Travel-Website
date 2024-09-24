@@ -383,7 +383,7 @@ button {
 	nav {
 		display: flex;
 		justify-content: space-between;
-		padding: 16px 20px;
+		padding: 30px 30px;
 		margin: 0;
 	}
 	nav h4 {
@@ -402,6 +402,8 @@ button {
 		text-align: center;
 		margin-top: 90px;
 		margin-bottom: 0;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.header-travel {
 		color: #25a59e;
