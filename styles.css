@@ -464,13 +464,17 @@ button {
 	.destination-images {
 		display: flex;
 		flex-direction: column;
-		margin-left: 70px;
-		margin-right: 60px;
+		width: 100%;
+		height: fit-content;
+		/* margin-left: 70px;
+		margin-right: 60px; */
 	}
 	.lake {
+		display: flex;
+		flex-direction: column;
 		width: Fixed (335px) px;
-		height: Fixed (378px) px;
-		padding: 16px 16px 36px 16px;
+		height: fit-content;
+		padding: 12px 12px 24px 12px;
 		gap: 28px;
 		border: 1px 0px 0px 0px white;
 		opacity: 0px;
@@ -483,6 +487,12 @@ button {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	.lake-identity {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
 	.lake-location {
 		display: flex;
 		align-items: center;
@@ -490,7 +500,8 @@ button {
 		margin-bottom: 0;
 	}
 	.location-logo {
-		margin-right: 5px;
+		height: 20px;
+		width: 20px;
 	}
 	.location {
 		margin-left: 10px;
@@ -498,11 +509,13 @@ button {
 		font-weight: 600;
 		line-height: 32px;
 		text-align: left;
+		margin-left: 0;
 	}
 	.choose-us {
 		display: flex;
 		flex-direction: column;
-		padding: 100px 120px;
+		padding: 65px 20px 0px 16px;
+		margin: 0;
 	}
 	.choose-us-header h4 {
 		font-family: Gilda Display;
@@ -577,18 +590,16 @@ button {
 		display: flex;
 		flex-direction: column;
 		gap: 28px;
-		padding: 100px 120px;
+		padding: 0 20px;
 		align-items: center;
-		width: Fixed (335px) px;
-		height: Hug (487px) px;
-		top: 4427px;
-		left: 20px;
-		gap: 28px;
+		height: fit-content;
+		margin-top: 65px;
+		margin: 0;
 	}
 	.trip-memory--text {
 		/* width: 100%; */
-		width: Fill (335px) px;
-		height: Hug (212px) px;
+		display: flex;
+		flex-direction: column;
 		gap: 12px;
 	}
 	.trip-memory--header {
@@ -605,6 +616,7 @@ button {
 		text-align: left;
 		color: #595959;
 		margin-top: 20px;
+		width: 100%;
 	}
 	.trip-memory--image {
 		display: flex;
@@ -637,6 +649,7 @@ button {
 		flex-direction: column;
 		gap: 48px;
 		padding-bottom: 100px;
+		margin-top: 41px; ;
 	}
 
 	.trip-documentation-header {
@@ -655,15 +668,16 @@ button {
 	footer {
 		display: flex;
 		flex-direction: column;
-		padding: 0px 120px 100px 120px;
-		gap: 80px;
+		padding: 0px 20px;
+		gap: 42px;
 	}
 	.best-offer-content {
 		display: flex;
 		flex-direction: column;
 		padding: 48px 0;
 		justify-content: space-between;
-		align-items: center;
+		align-items: start;
+		gap: 14px;
 	}
 
 	.best-offer-text {
@@ -691,7 +705,10 @@ button {
 
 	.footer-content {
 		display: flex;
-		justify-content: space-between;
+		flex-direction: column;
+		padding: 42px 0px;
+		border: 1px solid #d9d9d9;
+		gap: 42px;
 	}
 
 	.footer-text-socials {
