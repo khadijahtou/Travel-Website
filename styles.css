@@ -65,15 +65,14 @@ nav h4 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-	height: 228px;
+	height: 655px;
 }
 
 .blurry {
 	position: absolute;
-	top: 300px;
+	top: -20%;
 	left: 0;
-	width: 211px;
-	height: 211px;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -81,9 +80,7 @@ nav h4 {
 	z-index: 2;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
-	height: 315px;
-	top: 56px;
+	left: 44px;
 }
 .selfie {
 	z-index: 3;
@@ -192,7 +189,7 @@ nav h4 {
 }
 .card--footer p {
 	font-family: Gilda Display;
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: 400;
 	line-height: 23.54px;
 	text-align: left;
@@ -387,6 +384,7 @@ button {
 		display: flex;
 		justify-content: space-between;
 		padding: 16px 20px;
+		margin: 0;
 	}
 	nav h4 {
 		font-family: Gilda Display;
@@ -402,7 +400,7 @@ button {
 		font-weight: 400;
 		line-height: 61.2px;
 		text-align: center;
-		margin-top: 0;
+		margin-top: 90px;
 		margin-bottom: 0;
 	}
 	.header-travel {
@@ -410,7 +408,7 @@ button {
 	}
 	.hero-section {
 		width: 100%;
-		height: 323px;
+		height: fit-content;
 		display: flex;
 		flex-direction: column;
 	}
@@ -433,28 +431,35 @@ button {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
-		width: 80%;
-		height: 228px;
+		width: 100%;
+		height: 200px;
 	}
 
 	.blurry {
 		position: absolute;
-		top: -10%;
+		top: -60%;
 		left: 0;
+		bottom: 0;
+		height: 100%;
 		width: 100%;
+		object-fit: cover;
 		z-index: 1;
 	}
 
 	.ellipse {
 		z-index: 2;
 		position: absolute;
-		bottom: 0;
-		left: 5px;
-		top: 6px;
+		right: 0;
+		left: 0;
+		top: 10%;
 	}
 	.selfie {
 		z-index: 3;
 		position: absolute;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: top;
 	}
 	.destination-images {
 		display: flex;
